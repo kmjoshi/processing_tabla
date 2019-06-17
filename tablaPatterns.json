@@ -1,0 +1,49 @@
+{
+	"patterns": {
+		"GheNa": {"beats": "8/8", "notes": ["Ghe", "Na", "Ga", "Ghe", "Na", "Ga", "Ghe", "Na"]},
+		"_GheNa": {"beats": "8/8", "notes": [0, 0, 0, "Ghe", "Na", "Ga", "Ghe", "Na"]},
+		"KaTa": {"beats": "8/8", "notes": ["Ka_Ke", "Ta_Te", "Ga", "Ghe", "Na", "Ga", "Ghe", "Na"]},
+		"TeReKeTe": {"beats": "4/16", "notes": ["Ta_Te", "Te_Re", "Ka_Ke", "Ta_Te"]},
+		"KeNa": {"beats": "8/8", "notes": ["Ka_Ke", "Na", "Ka_Ke", "Ka_Ke", "Na", "Ka_Ke", "Ka_Ke", "Na"]},
+		"_KeNa": {"beats": "8/8", "notes": [0, 0, 0, "Ka_Ke", "Na", "Ka_Ke", "Ka_Ke", "Na"]},
+		"DhinTa": {"beats": "8/8", "notes": ["Dhin", 0, "Na", "Dhin", 0, "Dhin", "Na", "Te_Re"]},
+		"TinTa": {"beats": "8/8", "notes": ["Tin", 0, "Na", "Tin", 0, "Tin", "Na", "Te_Re"]},
+		"GaGhe": {"beats": "4/4", "notes": ["Ga", "Ghe", "Ta_Te", "Te_Re", "Ga", "Ghe", "Ta_Te", "Te_Re", 
+			"Na", "Ghe", "Ta_Te", "Te_Re", "Na", "Ghe", "Ta_Te", "Te_Re", 
+			"Ka_Ke", "Ta_Te", "Te_Re", "Ghe", "Ta_Te", "Te_Re", "Ga", "Ghe", 
+			"Ta_Te", "Ka_Ke", "Ta_Te", "Ga", "Ghe", "Ta_Te", "Te_Re", 
+			"Ga", "Ghe", "Ta_Te", "Te_Re", "Ga", "Tun_Di", "Ghe", "Ne", 
+			"Dha", 0, "Ka_Ke", "Ta_Te", "Ga", "Ghe", "Ta_Te", "Te_Re", 
+			"Ga", "Tun_Di", "Ghe", "Ne", "Dha", 0, "Ka_Ke", "Ta_Te", 
+			"Ga", "Ghe", "Ta_Te", "Te_Re", "Ga", "Tun_Di", "Ghe", "Ne", "Dha", 0, 0, 0]},
+		"NaGhe": {"beats": "4/4", "notes": ["Na", "Ghe", "Ta_Te", "Te_Re"]},
+		"DhaDhinNa": {"beats": "3/2", "notes": ["Dha", "Dhin", "Na", "Na", "Thun", "Na"]},
+		"DhaDhinNaNa": {"beats": "6/2", "notes": ["Dha", 0, "Dhin", 0, "Na", "Na", "Na", "Na", "Ta_Te", "Te_Re", "Ka_Ke", "Ta_Te"]},
+		"DhaTi": {"beats": "6/2", "notes": ["Dha", "Ta_Te", "Dha", "Na", "Thun", "Na", "Na", "Ta_Te", "Dha", "Na", "Dhin", "Na"]},
+		"DhaTe": {"beats": "8/8", "notes": ["Dha", "Na", "Ta_Te", "Te_Re", "Dha", "Na", "Thun", "Na"]},
+		"NaTe": {"beats": "8/8", "notes": ["Na", "Na", "Ta_Te", "Te_Re", "Dha", "Dha", "Dhin", "Na"]},	
+		"DhaDhaTeTe": {"beats": "16/8", "notes": ["Dha", "Na", "Ta_Te", "Te_Re", "Dha", "Na", "Ta_Te", "Te_Re", "Dha", "Na", "Ta_Te", "Te_Re", "Dha", "Na", "Thun", "Na"]},
+		"NaNaTeTe": {"beats": "16/8", "notes": ["Na", "Na", "Ta_Te", "Te_Re", "Dha", "Na", "Ta_Te", "Te_Re", "Dha", "Na", "Ta_Te", "Te_Re", "Dha", "Dha", "Dhin", "Na"]}
+	},
+	"pad": {
+		"Ghe": "left", "Ga": "left", "Ka_Ke": "left", "Na": "right", "Tun_Di": "right", "Ta_Te": "right", "Te_Re": "right", "Ne": "right", "Tin": "both", "Dhin": "both", "Dha": "both"
+	},
+	"compoundNotes": {
+		"Tin": {"left": "Ga", "right": "Tun_Di"}, "Dhin": {"left": "Ghe", "right": "Tun_Di"}, "Dha": {"left": "Ghe", "right": "Na"}, "Thun": {"left": "Ka_Ke", "right": "Tun_Di"}
+	},
+	"noteFiles": {
+		"Ga": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FGa_16.wav?v=1560071722768", 
+		"Ghe": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FGhe_16.wav?v=1560076048974", 
+		"Na": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FNa_16.wav?v=1560076041752", 
+		"Tun_Di": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FTun_Di_16.wav?v=1560076069822", 
+		"Ka_Ke": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FKa_Ke_16.wav?v=1560076040162", 
+		"Ta_Te": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FTa_Te_16.wav?v=1560076039226", 
+		"Te_Re": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FTe_Re_16.wav?v=1560076042594", 
+		"Ne": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FNe_16.wav?v=1560076040219"
+	},
+	"songs": [["GheNa", "KaTa", "KeNa", "KaTa"], 
+		["GheNa", "GheNa", "GheNa", "KaTa", "KeNa", "GheNa", "GheNa", "KaTa"], 
+		["GheNa", "_GheNa", "GheNa", "KaTa", "KeNa", "_KeNa", "GheNa", "KaTa"], 
+		["GheNa", "_GheNa", "_GheNa", "KaTa", "KeNa", "_KeNa", "_GheNa", "KaTa"], 
+		["DhinTa", "TinTa"]]
+}

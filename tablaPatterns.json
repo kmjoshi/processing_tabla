@@ -32,14 +32,14 @@
 		"Tin": {"left": "Ga", "right": "Tun_Di"}, "Dhin": {"left": "Ghe", "right": "Tun_Di"}, "Dha": {"left": "Ghe", "right": "Na"}, "Thun": {"left": "Ka_Ke", "right": "Tun_Di"}
 	},
 	"noteFiles": {
-		"Ga": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FGa_16.wav?v=1560071722768", 
-		"Ghe": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FGhe_16.wav?v=1560076048974", 
-		"Na": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FNa_16.wav?v=1560076041752", 
-		"Tun_Di": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FTun_Di_16.wav?v=1560076069822", 
-		"Ka_Ke": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FKa_Ke_16.wav?v=1560076040162", 
-		"Ta_Te": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FTa_Te_16.wav?v=1560076039226", 
-		"Te_Re": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FTe_Re_16.wav?v=1560076042594", 
-		"Ne": "https://cdn.glitch.com/e7872952-0aab-4d1c-9503-5364a553ab36%2FNe_16.wav?v=1560076040219"
+		"Ga": "assets/Ga_16.wav", 
+		"Ghe": "assets/Ghe_16.wav", 
+		"Na": "assets/Na_16.wav", 
+		"Tun_Di": "assets/Tun_Di_16.wav", 
+		"Ka_Ke": "assets/Ka_Ke_16.wav", 
+		"Ta_Te": "assets/Ta_Te_16.wav", 
+		"Te_Re": "assets/Te_Re_16.wav", 
+		"Ne": "assets/Ne_16.wav"
 	},
 	"songs": [["GheNa", "KaTa", "KeNa", "KaTa"], 
 		["GheNa", "GheNa", "GheNa", "KaTa", "KeNa", "GheNa", "GheNa", "KaTa"], 

@@ -1,4 +1,3 @@
-
 // USER INPUTS
 var songItems = ['GheNa', 'KaTa', 'KeNa', 'KaTa'];
 var ifLoop = false;

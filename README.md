@@ -1,5 +1,6 @@
 ## Tabla Beats
 
+=> https://kmjoshi.github.io/processing_tabla
 Initially made in glitch https://tabla-beats.glitch.me/ using p5.js
 
-More full-features serious version: http://vishwamohini.com/music/home.php
+Related found on the web: http://vishwamohini.com/music/home.php
